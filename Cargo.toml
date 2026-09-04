@@ -1,0 +1,12 @@
+[package]
+name = "valverig-io"
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.88"
+description = "Open an audio device and run a chain in its callback, with no queue in between"
+license = "MIT"
+repository = "https://github.com/ValveRig/valverig-io"
+
+[dependencies]
+cpal = "0.15"
+thiserror = "2"
